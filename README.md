@@ -52,3 +52,8 @@ on the formula,this is `x[i][a]+=y[i][a]` and there is nested for loop
  we need to do [dot product](https://www.mathsisfun.com/algebra/vectors-dot-product.html) of rows and columns
   
  ![matrix of image](https://www.mathsisfun.com/algebra/images/matrix-multiply-a.svg)
+  
+  
+  ## Source
+  - [mathsisfun of matrix](https://www.mathsisfun.com/algebra/matrix-multiplying.html)
+  - [Wikipedia of matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))
