@@ -28,7 +28,6 @@ def Sum_matrix(x,y):
     else:
         return "on the matix list has is false lenght,\nso this is should be of a equal matrix list"
 
-
 def Multiply_matrix(x,y):
     list2=[]
     x_column=[]#this is for the 'x' columns lenght
