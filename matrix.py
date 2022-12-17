@@ -1,7 +1,7 @@
 #for Example: x=[[1,2],[3,4],[5,6]]
 #this,would represent a3x2 matrix.
 #Base Matrix operation.
-
+#there are Sum and Multiply
 def Sum_matrix(x,y):
     x_column=[]
     y_column=[]
