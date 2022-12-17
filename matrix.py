@@ -1,56 +1,7 @@
 #for Example: x=[[1,2],[3,4],[5,6]]
 #this,would represent a3x2 matrix.
-"""
-A=[
-    [2,-5,-11,0],
-    [-9,7,8,13],
-    [5,9,20,-7]
-]
-#Why we're creating a list in a matrix list in the python?
-#this answer: so,the python doesn't have prepared a built for matrices.
-
-#print(A[0][1])
-
-for row in A:
-    print(row[1])
-    #so, it's take of everyone list index from the main list.
-
-#here we're using nested loop because for add tow matrices.
-X=[ [1,2,3],
-    [34,5,2],
-    [23,4,6]
-]
-Y=[ [11,12,13],
-    [14,15,16],
-    [20,21,22]
-]
-Z=[ [0,0,0],
-    [0,0,0],
-    [0,0,0]
-]
-
-for i in range(len(X)):
-    #we're taking row matrices so, on the matrix list row.
-    for j in range(len(Y)):
-        #now is, we're taking colums on the matrix list.
-        #and then them sum
-        Z[i][j]=X[i][j]+Y[i][j]
-#result
-for r in Z:
-    print(r)
-
-#Multiply two matrices.
-for i in range(len(X[0])):
-    for j in range(len(Y[0])):
-        for k in range(len(Y)):
-            # main operation: its a multiply operation,if at the end,
-            # A sum operation.
-            Z[i][j]+=X[i][k]*Y[k][j]
-for r in Z:
-    print(r)
-"""    
-    
 #Base Matrix operation.
+
 def Sum_matrix(x,y):
     x_column=[]
     y_column=[]
@@ -120,5 +71,3 @@ def Multiply_matrix(x,y):
         return constant_list
     elif(len(x_column)!=len(y)):
         return "Number of  columns in one matrix\nshould be equal to the number of rows  in second matirx"
-
-    
